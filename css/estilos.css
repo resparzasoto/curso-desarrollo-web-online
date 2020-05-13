@@ -1,3 +1,25 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
 header {
-    background: pink !important;
+    background: pink;
 }
+
+/* selector de etiqueta */
+/* Es una etiqueta */
+/* header - section - article - nav */
+
+/* selector descendente */
+/* Es un elemento hijo de otro elemento */
+/* body header nav ol li a */
+
+/* selector de clase . */
+/* Se aplican a los elementos con la clase especificada después del . */
+/* .link */
+
+/* selector de id # */
+/* Se aplica al elemento con el id indicado después del Hash */
+/* #portafolio */
