@@ -4,9 +4,9 @@ declaraciones
 propiedades
 valores */
 
-header {
+/* header {
     background: pink;
-}
+} */
 
 /* selector de etiqueta */
 /* Es una etiqueta */
@@ -23,3 +23,16 @@ header {
 /* selector de id # */
 /* Se aplica al elemento con el id indicado después del Hash */
 /* #portafolio */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
