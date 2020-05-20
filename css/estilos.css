@@ -46,3 +46,20 @@ h1 {
     /* text-transform: uppercase; */
     /* text-decoration: underline; */
 }
+
+.hero {
+    height: 300px;
+}
+
+/* Este selector también hubiera funcionado */
+/* .project div {
+
+} */
+
+.project-details {
+    width: 500px;
+}
+
+.project-image-container {
+    width: 500px;
+}
