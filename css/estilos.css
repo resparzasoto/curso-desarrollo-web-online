@@ -130,3 +130,16 @@ hacia arriba o hacia abajo, hacia la izquierda y derecha sera auto */
 .project-image-container {
     width: 500px;
 }
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid red;
+    flex-shrink: 0;
+}
