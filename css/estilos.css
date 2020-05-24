@@ -26,6 +26,7 @@ valores */
 
 body {
     font-family: 'Source Sans Pro', sans-serif; 
+    margin: 0;
 }
 
 h1,
@@ -37,12 +38,20 @@ h6 {
     font-family: 'Fjalla One', sans-serif;
 }
 
+/* Los margenes se escriben en el oreden de las manecillas del reloj */
+/* margin: top right bottom left; */
+
+/* Otra forma de ponerlos es especificando solamente dos valores */
+/* margin: valor1 valor2; */
+/* El valor1 se tomara como top y bottom */
+/* El valor2 se tomara como right y left */
 h1 {
     font-size: 40px;
     line-height: 1.5em;
     font-weight: normal;
     letter-spacing: -.2px;
     color: white;
+    margin: 100px 500px 70px 30px;
     /* font-style: italic; */
     /* text-transform: uppercase; */
     /* text-decoration: underline; */
@@ -89,6 +98,9 @@ h1 strong {
     text-decoration: none;
 }
 
+.portafolio {
+    background: #fafafa;
+}
 
 /* border-top tamaño tipo color; */
 /* El color del borde se hereda del color del texto que tenga el elemento */
@@ -104,4 +116,15 @@ h1 strong {
     border-top-style: solid; */
     border: 1px solid gray;
     border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
 }
+
+/* Los elementos que tienen un ancho fijo se puede centrar fácilmente
+con los margenes */
+/* Tiene que tener el display: block; */
+/* En el margin especificaremos indicaremos que no tendrá margenes
+hacia arriba o hacia abajo, hacia la izquierda y derecha sera auto */
+/* margin: 0 auto; */
