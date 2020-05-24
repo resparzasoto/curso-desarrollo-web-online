@@ -134,6 +134,8 @@ hacia arriba o hacia abajo, hacia la izquierda y derecha sera auto */
 .flexbox {
     display: flex;
     flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
 }
 
 .flex {
