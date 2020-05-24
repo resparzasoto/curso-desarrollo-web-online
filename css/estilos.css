@@ -75,14 +75,6 @@ h1 strong {
 
 } */
 
-.project-details {
-    width: 500px;
-}
-
-.project-image-container {
-    width: 500px;
-}
-
 /* gris oscuro = #1d252c */
 /* gris claro = #626262 */
 /* background gris = #1b2127 */
@@ -104,6 +96,14 @@ h1 strong {
 
 /* border-top tamaño tipo color; */
 /* El color del borde se hereda del color del texto que tenga el elemento */
+
+/* Los elementos que tienen un ancho fijo se puede centrar fácilmente
+con los margenes */
+/* Tiene que tener el display: block; */
+/* En el margin especificaremos indicaremos que no tendrá margenes
+hacia arriba o hacia abajo, hacia la izquierda y derecha sera auto */
+/* margin: 0 auto; */
+
 .project {
     /* border-left: 10px solid orange;
     border-top: 10px solid red;
@@ -119,12 +119,16 @@ h1 strong {
     margin: 10px;
     margin-bottom: 15px;
     padding: 20px;
+    width: 500px;
     background: white;
+    height: 500px;
+    box-sizing: border-box;
 }
 
-/* Los elementos que tienen un ancho fijo se puede centrar fácilmente
-con los margenes */
-/* Tiene que tener el display: block; */
-/* En el margin especificaremos indicaremos que no tendrá margenes
-hacia arriba o hacia abajo, hacia la izquierda y derecha sera auto */
-/* margin: 0 auto; */
+.project-details {
+    width: 500px;
+}
+
+.project-image-container {
+    width: 500px;
+}
