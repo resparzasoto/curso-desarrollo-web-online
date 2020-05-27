@@ -80,7 +80,7 @@ h1 strong {
 /* background gris = #1b2127 */
 /* celeste = #026fff */
 
-.header {
+/* .header {
     background-color: #1b2127;
     color: white;
 }
@@ -88,7 +88,7 @@ h1 strong {
 .header a {
     color: white;
     text-decoration: none;
-}
+} */
 
 .portafolio {
     background: #fafafa;
@@ -131,20 +131,62 @@ hacia arriba o hacia abajo, hacia la izquierda y derecha sera auto */
     width: 500px;
 }
 
-.flexbox {
+/* .flexbox {
     display: flex;
     height: 200px;
     flex-wrap: wrap;
-    /* flex-direction: column; */
+    -- flex-direction: column; 
     justify-content: center;
     align-items: center;
     border: 1px solid blue;
-}
+} */
 
-.flex {
+/* .flex {
     width: 50px;
     height: 50px;
     margin: 5px;
     border: 1px solid red;
     flex-shrink: 0;
+} */
+
+/* Eliminando estilos */
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
